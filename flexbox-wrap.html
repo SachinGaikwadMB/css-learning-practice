@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Introduction</title>
+    <style>
+        .container {
+            width:60%;
+            border: 5px solid black;
+            background: pink;
+            margin: 12rem auto;
+           
+            display: flex;
+            /* flex-direction:column-reverse; */
+            /* flex-wrap: wrap-reverse; */ /*if container size less than items size*/
+        }
+
+        .items {
+            color:white;
+            font-size: 1rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;    
+        }
+        .items1 {background: red;}
+        .items2 {background: yellow;}
+        .items3 {background:green;}
+        .items4 {background:cornflowerblue;}
+        .items5 {background:deeppink;}
+        .items6 {background:darksalmon;}
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items items1">First</div>
+      <div class="items items2">Second</div>
+      <div class="items items3">Third</div>
+      <div class="items items4">Fourth</div>
+      <div class="items items5">Fifth</div>
+      <div class="items items6">sixth</div>
+    </div>
+  </body>
+</html>

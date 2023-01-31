@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List Style</title>
+
+    <style>
+        ul {
+            /* list-style-type: disc;(default) */
+            /* list-style-type:circle; */
+            /* list-style-type: square; */
+            /* list-style-type: none;
+            list-style-position: outside;
+            list-style-image: url(Images/right-arrow.png); */
+
+            /* shorthand  */
+            list-style: none outside url(Images/right-arrow.png);
+
+        }
+
+        ul li {
+            padding : 3px 0;
+        }
+
+        ol {
+            /* list-style-type: lower-alpha; */
+            /* list-style-type: upper-alpha; */
+            /* list-style-type: lower-roman; */
+            /* list-style-type: upper-roman; */
+            /* list-style-type: decimal; */
+            /* list-style-type: none; */
+        }
+    </style>
+
+  </head>
+  <body>
+    <h1>List Style with CSS.</h1>
+
+    <!-- Note : All the list style properties must be inside ul tag or ol tag not inside the li tag -->
+      <ul>
+        <li>Orange</li>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Gauva</li>
+        <li>Papaya</li>
+        <li>Chicku</li>
+      </ul>
+      
+      <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+      </ol>
+
+  </body>
+</html>
